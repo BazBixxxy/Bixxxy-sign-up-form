@@ -1,0 +1,189 @@
+body {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 0.8rem;
+  color: rgb(48, 48, 48);
+  margin: 0;
+  height: 100vh;
+  background-image: url(images/josh-withers-5BqfVfYiIWA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: azure;
+  height: 94vh;
+  width: 94vw;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin: 0;
+}
+
+form {
+  /* background-color: lavenderblush; */
+  width: 75%;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 85%;
+  height: 38px;
+  border: 0.5px solid rgb(48, 48, 48);
+  background: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-weight: 400;
+  margin-right: 18px;
+}
+
+button {
+  background: none;
+  border: none;
+  display: block;
+  margin: 10px;
+  background-color: rgb(21, 134, 255);
+  padding: 12px;
+  color: white;
+  width: 85%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(21, 134, 255);
+}
+
+.left {
+  width: 50%;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.company {
+  position: absolute;
+  top: 10%;
+  font-weight: 400;
+  font-size: 1.8rem;
+  /* left: 10%; */
+  color: whitesmoke;
+  font-family: "Protest Riot", sans-serif;
+}
+
+.credit {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+.credit a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1rem;
+  color: rgb(207, 233, 255);
+}
+
+.left > img {
+  width: 93%;
+  height: 99%;
+  border-radius: 9px;
+  /* filter: brightness(0.75); */
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  top: 10%;
+  margin-right: 70px;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+.check-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.check {
+  display: inline;
+}
+
+.checkbox {
+  background: none;
+  background-color: white;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.checker {
+  margin-bottom: 20px;
+}
+
+.google {
+  background-color: rgb(208, 208, 208);
+  color: inherit;
+}
+
+.google-logo {
+  width: 25px;
+  display: inline;
+  margin: 0;
+  margin-right: 5px;
+}
+
+::placeholder {
+  color: rgba(111, 111, 111, 0.898);
+  font-size: 0.9rem;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5%;
+}

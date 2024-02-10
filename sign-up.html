@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="signup.css" />
+    <title>Bixxxy</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <img src="images/marla-prusik-5q1KnUjtjaM-unsplash.jpg" alt="" />
+        <div class="company">Bixxxy</div>
+        <div class="credit">Photo by: <a href="">marla prusik</a></div>
+      </div>
+      <div class="right">
+        <div class="heading">
+          <h1>Create an account using your email</h1>
+          <!-- <p>Let's help you create an account</p> -->
+        </div>
+        <form action="" method="post">
+          <div class="name">
+            <div class="first">
+              <label for="first-name">First Name</label>
+              <input
+                type="text"
+                id="first-name"
+                name="firstName"
+                placeholder="first name"
+              />
+            </div>
+            <div class="last">
+              <label for="surname">Surname</label
+              ><input
+                type="text"
+                id="surname"
+                name="surname"
+                placeholder="kwagala"
+              />
+            </div>
+          </div>
+          <div>
+            <label for="email">Email Address</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="baz@gmail.com"
+              required
+            />
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input
+              type="number"
+              id="phone"
+              name="userNumber"
+              placeholder="digits only 234..."
+              required
+            />
+          </div>
+          <div>
+            <label for="newPassword">New Password</label>
+            <input type="password" id="newPassword" name="password1" />
+          </div>
+          <div>
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="password2" />
+          </div>
+          <div class="terms">
+            <input type="checkbox" id="check" class="checkbox" />
+            <label for="check"
+              >I agree to all the <a href="">terms and conditions</a></label
+            >
+          </div>
+          <button>Submit</button>
+        </form>
+        <div class="footer">
+          <p>Already have an account? <a href="index.html">Sign In</a></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
